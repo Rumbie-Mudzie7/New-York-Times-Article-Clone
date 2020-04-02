@@ -74,6 +74,68 @@ body {
   margin-left: 15px;
 }
 
+.advert-container {
+  height: 300px;
+  border: 1px solid #DCDCDC;
+  background-color: #f7f6f2;
+  text-align: center;
+  font-size: 10px;
+  color: #cfccc4;
+}
+
+.advert-container p {
+  margin: 20px 0;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+}
+
+.title h1 {
+  font-style: italic;
+}
+
+.title h1:nth-child(2) {
+  margin-left: -300px;
+  margin-top: 10px;
+}
+
+.title img {
+  vertical-align: top;
+  height: 60%;
+  max-width: 70%;
+  margin: 20px auto;
+}
+
+/*h1.title {
+	color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.9375rem;
+    line-height: 2.25rem;
+    margin: 0 20px 1rem;
+    position: relative;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+    text-align: center;
+}*/
+
 /* this the beginning of old style */
 
 /*@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');*/
