@@ -131,6 +131,15 @@ body {
   /*margin: 0 600px;*/
 }
 
+.gallery {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 20% 15% 15% 15% 15% 20%;
+}
+
+main header {
+  margin: 0 20%;
+}
 
 
 
