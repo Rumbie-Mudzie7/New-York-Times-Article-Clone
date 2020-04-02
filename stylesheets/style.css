@@ -110,7 +110,7 @@ body {
 
 .page-text {
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 30% 40% 30%;
   margin-bottom: 100px;
 }
 
