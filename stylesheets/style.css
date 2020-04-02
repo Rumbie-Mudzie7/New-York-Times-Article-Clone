@@ -14,7 +14,7 @@ body {
 
 .nav {
   display: flex;
-  height: 50px;
+  height: 50px; 
   width: 100%;
   top:	0;
   border-bottom: 1px solid #DCDCDC;
@@ -104,7 +104,7 @@ body {
 
 .title img {
   vertical-align: top;
-  height: 60%;
+  height: 550px;
   max-width: 70%;
   margin: 20px auto;
 }
