@@ -56,7 +56,6 @@ body {
   padding: 11px 12px 8px;
   margin-right: 6px;
   margin-top: 5px;
-  /*display: inline-block;*/
 }
 
 .buttons {
@@ -109,32 +108,32 @@ body {
   margin: 20px auto;
 }
 
-/*h1.title {
-	color: #121212;
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 1.9375rem;
-    line-height: 2.25rem;
-    margin: 0 20px 1rem;
-    position: relative;
-    width: calc(100% - 40px);
-    max-width: 600px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    display: block;
-    text-align: center;
-}*/
+.page-text {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  margin-bottom: 100px;
+}
+
+.text-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.text-grid h6 {
+  grid-column: 1 / 9;
+}
+
+.text-grid p {
+  grid-column: 1 / 4;
+}
+
+.text-grid {
+  /*margin: 0 600px;*/
+}
+
+
+
+
 
 /* this the beginning of old style */
 
