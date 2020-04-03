@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .align-baseline {
@@ -14,19 +15,37 @@ body {
 
 .nav {
   display: flex;
-  height: 50px; 
+  height: 50px;
   width: 100%;
-  top:	0;
-  border-bottom: 1px solid #DCDCDC;
+  top: 0;
+  border-bottom: 1px solid #dcdcdc;
   justify-content: space-between;
   align-items: baseline;
+  position: fixed;
+}
+
+aside a {
+  cursor: pointer;
+  font-family: nyt-cheltenham-small, georgia, "times new roman", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  width: 100%;
+  color: rgb(51, 51, 51);
+}
+
+aside img,
+aside a {
+  height: 100px;
+  width: 100px;
+  float: left;
 }
 
 .nav a {
   text-decoration: none;
   color: black;
   padding-top: 12px;
-  margin: 0px 20px;
+  margin: 0 20px;
   margin-bottom: 25px;
   font-size: 15px;
   font-weight: 700;
@@ -37,6 +56,12 @@ body {
   text-decoration: underline;
 }
 
+.title img {
+  vertical-align: top;
+  height: 550px;
+  max-width: 90%;
+  margin: 20px auto;
+}
 
 .nav a img {
   height: 45px;
@@ -46,7 +71,7 @@ body {
   border-radius: 4px;
   background-color: #567b95;
   border: 1px solid #326891;
-  color: white;
+  color: #fff;
   cursor: pointer;
   font-size: 11px;
   line-height: 11px;
@@ -68,28 +93,13 @@ body {
 
 .fa-bars,
 .fa-search {
-  margin-bottom: 65px;
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
-.advert-container {
-  height: 300px;
-  border: 1px solid #DCDCDC;
-  background-color: #f7f6f2;
-  text-align: center;
-  font-size: 10px;
-  color: #cfccc4;
-}
-
-.advert-container p {
-  margin: 20px 0;
+  margin: 0 15px 65px;
 }
 
 .title {
   text-align: center;
   margin-top: 50px;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif, sans-serif;
 }
 
 .title h1 {
@@ -97,15 +107,8 @@ body {
 }
 
 .title h1:nth-child(2) {
-  margin-left: -300px;
+  margin-left: -239px;
   margin-top: 10px;
-}
-
-.title img {
-  vertical-align: top;
-  height: 550px;
-  max-width: 70%;
-  margin: 20px auto;
 }
 
 .page-text {
@@ -119,16 +122,20 @@ body {
   grid-template-columns: auto auto auto auto auto auto auto auto auto;
 }
 
+aside h6 {
+  border-bottom: 1px solid #dcdcdc;
+}
+
 .text-grid h6 {
   grid-column: 1 / 9;
 }
 
-.text-grid p {
-  grid-column: 1 / 4;
+aside p {
+  margin: 8px 150px 20px 20px;
 }
 
-.text-grid {
-  /*margin: 0 600px;*/
+.text-grid p {
+  grid-column: 1 / 4;
 }
 
 .gallery {
@@ -137,51 +144,26 @@ body {
   grid-template-columns: 20% 15% 15% 15% 15% 20%;
 }
 
-.gallery p {
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+figcaption {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
 }
 
-.gallery strong {
+strong {
   font-weight: 800;
   margin-right: 5px;
 }
 
-main header {
+main section {
   margin: 0 20%;
 }
 
 aside {
-  float: left;
   margin: 100% auto;
   margin-left: 90px;
-}
-
-aside img,
-aside a {
-  height: 100px;
-  width: 100px;
-}
-
-aside a {
-  cursor: pointer;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  width: 100%;
-  color: rgb(51, 51, 51);
-}
-
-aside h6 {
-  border-bottom: 1px solid #DCDCDC;
-}
-
-aside p {
-  margin: 8px 150px 20px 20px;
 }
 
 .editor-info {
@@ -190,7 +172,7 @@ aside p {
   margin-bottom: 15px;
 }
 
-/*@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');*/
+/* @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
 
 .flex-h,
 .flex-v {
@@ -214,7 +196,6 @@ aside p {
   background-color: #fff;
 }
 
-
 /* Header section */
 
 #main-header {
@@ -232,12 +213,6 @@ aside p {
   margin-top: 5rem;
 }
 
-/* Main section: right section */
-
-#left-section {
-  width: 75%;
-}
-
 /* Main section: Main video section */
 
 #main-video {
@@ -250,4 +225,3 @@ iframe {
   width: 100%;
   border: 0;
 }
-
