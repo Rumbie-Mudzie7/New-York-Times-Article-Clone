@@ -170,30 +170,28 @@ aside {
 }
 
 .news {
-  /*float: left;*/
-  margin: 20px 250px;
-  /*width: 1rem;*/
-  /*width: 100%;*/
-  /*background-color: black;*/
+  display: grid;
+  grid-template-columns: repeat( 3, 700px);
+  background-color: chartreuse;
+  grid-gap: 30px;
+  margin-left: 70px;
+  margin-right: 200px; 
 }
-
-/*.news::after {
-  content: "";
-  clear: both;
-  display: table;
-}*/
 
 .related-news {
-  float: left;
+  /* float: left; */
   border-top: 1px solid #000;
-  background-color: black;
+  /* background-color: black; */
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-columns: 33.3% 33.3% 33.3%; 
   grid-gap: 20px 20px;
-  width: 60%;
-  padding: 50px 0;
-  margin: 20px 0;
+  /* padding: 50px 0; */
+  /* margin: 20px 0; */
 }
+ #editor-pic {
+   margin-right:20px;
+   padding-right: 50px;
+ }
 
 .related-news img{
   width: 270px;
@@ -215,11 +213,26 @@ aside {
 
 .popular-news {
   border-top: 1px solid #000;
-  background-color: red;
-  float: left;
-  width: 40%;
+  /* background-color: red; */
+  /* float: left; */
+  /* width: 40%; */
   /*padding: 20px;*/
-  margin: 20px;
+  /* margin: 20px; */
+}
+
+.news-text {
+  padding: 15px 0px; 
+  cursor: pointer
+  border-bottom: 1px solid rgb(226, 226, 226)
+}
+
+.popular-section {
+  /* border-top: 1px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226, 226, 226); */
+  list-style: outside none none;
+  margin-top: 15px;
+  margin-right: 50px;
+  padding-right: 50px;
 }
 
 /* @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
