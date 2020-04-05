@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav {
    background-color: #fff;
    justify-content: space-between;
@@ -45,9 +49,7 @@ body {
 }
 
 #nav-text a {
-  font-weight: bold ;
-  color: black;
-  text-decoration: none;
+  font-weight: bold;
   font-size: 15px;
 }
 
@@ -89,7 +91,6 @@ aside a {
 }
 
 .title {
-  text-align: center;
   margin-top: 50px;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif, sans-serif;
 }
@@ -104,13 +105,11 @@ aside a {
 }
 
 .page-text {
-  display: grid;
   grid-template-columns: 30% 40% 30%;
   margin-bottom: 100px;
 }
 
 .text-grid {
-  display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto;
 }
 
@@ -131,7 +130,6 @@ aside p {
 }
 
 .gallery {
-  display: grid;
   grid-gap: 10px;
   grid-template-columns: 20% 15% 15% 15% 15% 20%;
 }
@@ -141,7 +139,6 @@ figcaption {
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
-  color: #000;
 }
 
 strong {
@@ -170,9 +167,9 @@ footer span a {
   color: #666;
   cursor: pointer;
   font-size: 11px;
-  text-decoration: none;
 }
 
+.editor-info p a,
 footer span a:hover {
   text-decoration: underline;
 }
@@ -209,8 +206,6 @@ footer img {
 }
 
 .related-news-heading a {
-  text-decoration: none;
-  color: #000;
   font-weight: bold;
 }
 
@@ -239,7 +234,6 @@ section h3 {
 }
 
 section ul a {
-  color: #000;
   display: inline-block;
   text-transform: capitalize;
   width: 150px;
@@ -247,7 +241,6 @@ section ul a {
   font-weight: 500;
   height: 23px;
   line-height: 16px;
-  text-decoration: none;
   list-style: none;
 }
 
@@ -275,12 +268,9 @@ section ul a:hover {
 .subscribe li {
   margin-bottom: 5px;
   white-space: nowrap;
-  color: #000;
 }
 
 .subscribe li a {
-  color: #000;
-  text-decoration: none;
   display: inline-block;
   text-transform: capitalize;
   width: 150px;
@@ -302,7 +292,6 @@ section ul a:hover {
 }
 
 .subscribe .subscribe-small {
-  color: #000;
   display: inline-block;
   text-transform: capitalize;
   width: 150px;
@@ -365,7 +354,6 @@ section ul a:hover {
    padding-right: 50px;
  }
 
-/*.related-news img,*/
 .editors-picks img {
   width: 270px;
   height: 175px;
@@ -378,7 +366,6 @@ section ul a:hover {
 
 .related-news a,
 .editors-picks a {
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -400,8 +387,9 @@ section ul a:hover {
 
 .popular-section {
   list-style: outside none none;
-  margin-top: 15px;
-  margin-right: 50px;
+ /* margin-top: 15px;
+  margin-right: 50px;*/
+  margin: 15px 50px 0 0;
   padding-right: 50px;
 }
 
@@ -416,6 +404,10 @@ section ul a:hover {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -427,6 +419,10 @@ section ul a:hover {
 .full-container {
   width: 100vw;
   background-color: #fff;
+}
+
+.black-color {
+  color: #000;
 }
 
 .media {
