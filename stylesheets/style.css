@@ -23,7 +23,7 @@ body {
   border-radius: 4px;
   background-color: #567B95;
   border: 1px solid #326891;
-  color: white;
+  color: #fff;
   cursor: pointer;
   font-size: 11px;
   line-height: 11px;
@@ -46,7 +46,6 @@ body {
 
 #nav-text a {
   font-weight: bold ;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
   color: black;
   text-decoration: none;
   font-size: 15px;
@@ -59,7 +58,7 @@ aside a {
   font-size: 14px;
   line-height: 17px;
   width: 100%;
-  color: rgb(51, 51, 51);
+  color: #333;
 }
 
 aside img,
@@ -229,10 +228,9 @@ section ul,
 }
 
 section h3 {
-  color: rgb(51, 51, 51);
+  color: #333;
   font-size: 13px;
   font-weight: 700;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
   text-transform: uppercase;
@@ -243,7 +241,6 @@ section h3 {
 section ul a {
   color: #000;
   display: inline-block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-transform: capitalize;
   width: 150px;
   font-size: 14px;
@@ -260,7 +257,7 @@ section ul a:hover {
 
 .subscribe {
   padding-left: 15px;
-  border-left: 1px solid rgb(226, 226, 226);
+  border-left: 1px solid #e2e2e2;
   width: 345px;
 }
 
@@ -268,7 +265,6 @@ section ul a:hover {
   color: rgb(51, 51, 51);
   font-size: 13px;
   font-weight: 700;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
   text-transform: uppercase;
@@ -286,7 +282,6 @@ section ul a:hover {
   color: #000;
   text-decoration: none;
   display: inline-block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-transform: capitalize;
   width: 150px;
   font-size: 16px;
@@ -309,7 +304,6 @@ section ul a:hover {
 .subscribe .subscribe-small {
   color: #000;
   display: inline-block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-transform: capitalize;
   width: 150px;
   font-size: 11px;
@@ -328,7 +322,6 @@ section ul a:hover {
 
 .home-link {
   color: rgb(86, 123, 149);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -396,13 +389,13 @@ section ul a:hover {
 
 .related-news small,
 .editors-picks small {
-  color: rgb(153, 153, 153);
+  color: #999;
 }
 
 .news-text {
   padding: 15px 0px; 
   cursor: pointer
-  border-bottom: 1px solid rgb(226, 226, 226);
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .popular-section {
@@ -419,14 +412,9 @@ section ul a:hover {
 
 /* @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
 
-.flex-h,
-.flex-v {
+.flex-h {
   display: flex;
 }
-
-/*.flex-v {
-  flex-direction: column;
-}*/
 
 .space-between {
   justify-content: space-between;
@@ -436,41 +424,20 @@ section ul a:hover {
   align-items: center;
 }
 
-/*.align-baseline {
-  align-items: baseline;
-}*/
-
 .full-container {
   width: 100vw;
   background-color: #fff;
 }
-
-/* Header section */
-
-/*#main-header {
-  height: 60px;
-  padding: 2rem;
-  position: fixed;
-  top: 0;
-  z-index: 999;
-}*/
-
-/* Main section */
 
 .media {
   padding: 30px 0;
 }
 
 .media-text p {
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   color: #666;
   font-weight: bold;
 }
-
-/*#main-video {
-  height: 600px;
-  align-items: stretch;
-}*/
 
 iframe {
   height: 319px;
