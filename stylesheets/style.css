@@ -72,6 +72,12 @@ section ul a {
   list-style: none;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+}
+
 footer span a {
   color: #666;
   cursor: pointer;
@@ -98,6 +104,7 @@ footer span a {
 
 .editor-info p a {
   text-decoration: underline;
+  margin-bottom: 60px
 }
 
 .subscribe li a {
