@@ -14,7 +14,7 @@ In this project, we made use of DRY (Do Not Repeat Yourself) principles to make 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/temesghentekeste/mint.com-signup-clone/5a3efc3dcdda4dee436c31871e4474aff5e7b768/index.html)
+[Live Demo Link](https://raw.githack.com/Rumbie-Mudzie7/New-York-Times-Article-Clone/article-page/index.html)
 
 ## Getting Started
 
@@ -41,9 +41,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- Github: [@temesghentekeste](https://github.com/temesghentekeste)
-- Twitter: [@temesghentekes1](https://twitter.com/temesghentekes1)
-- Linkedin: [linkedin](https://www.linkedin.com/in/temesghen-tekeste-bahta-8b5243193/)
+- Github: [@Rumbie-Mudzie7](https://github.com/Rumbie-Mudzie7)
+- Twitter: [@RumbidzayiMudz3](https://twitter.com/RumbidzayiMudz3)
+- Linkedin: [linkedin](https://www.linkedin.com/in/rumbidzayi-mudziviri-792b4b85/)
 
 ## 🤝 Contributing
 
