@@ -14,19 +14,19 @@ a {
 }
 
 .nav {
-   background-color: #fff;
-   justify-content: space-between;
-   align-items: center;
-   position: fixed;
-   top: 0;
-   border-bottom: 1px solid #dcdcdc;
-   width: 100%;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #dcdcdc;
+  width: 100%;
 }
 
 .comments-btn button,
 .nav button {
   border-radius: 4px;
-  background-color: #567B95;
+  background-color: #567b95;
   border: 1px solid #326891;
   color: #fff;
   cursor: pointer;
@@ -49,26 +49,108 @@ a {
   padding-left: 2rem;
 }
 
-#nav-text a {
-  font-weight: bold;
-  font-size: 15px;
-}
-
 aside a {
   cursor: pointer;
   font-family: nyt-cheltenham-small, georgia, "times new roman", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  width: 100%;
   color: #333;
-}
-
-aside img,
-aside a {
   height: 100px;
   width: 100px;
   float: left;
+}
+
+section ul a {
+  display: inline-block;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+  list-style: none;
+}
+
+footer span a {
+  color: #666;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.text-grid a {
+  text-decoration: underline;
+}
+
+.related-news-heading a {
+  font-weight: bold;
+}
+
+.related-news a,
+.editors-picks a {
+  cursor: pointer;
+}
+
+.related-news p a,
+.editors-picks p a {
+  color: #3e1212;
+}
+
+.editor-info p a {
+  text-decoration: underline;
+}
+
+.subscribe li a {
+  display: inline-block;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}
+
+section ul a:hover {
+  cursor: pointer;
+}
+
+.subscribe li a:hover {
+  text-decoration: underline;
+}
+
+#nav-text a {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+aside img {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+footer img {
+  width: 184px;
+  height: 60px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.related-news img {
+  width: 277px;
+  height: 170px;
+}
+
+.editors-picks img {
+  width: 270px;
+  height: 175px;
 }
 
 .title div img {
@@ -76,14 +158,6 @@ aside a {
   height: 550px;
   max-width: 100%;
   margin: 20px 0;
-}
-
-.logo img {
-   height: 50px;
-}
-
-.nav-icons {
-  margin-left: 30px;
 }
 
 .title {
@@ -120,25 +194,11 @@ aside a {
   font-size: 20px;
 }
 
-.text-grid a {
-  text-decoration: underline;
-}
-
-.text-grid p {
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
-  font-weight: 500;
-  color: #333;
-  margin-bottom: 1rem;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin-right: 230px;
-}
-
 .comments-btn {
   margin: 20px 0 0;
 }
 
-.comments-btn button{
+.comments-btn button {
   padding: 13px 100px;
   font-size: 12px;
 }
@@ -163,6 +223,13 @@ aside p {
 }
 
 .text-grid p {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin-right: 230px;
   grid-column: 1 / 4;
 }
 
@@ -196,24 +263,8 @@ aside {
   margin-left: 90px;
 }
 
-footer  {
+footer {
   padding: 20px 250px;
-}
-
-footer span a {
-  color: #666;
-  cursor: pointer;
-  font-size: 11px;
-}
-
-.editor-info p a,
-footer span a:hover {
-  text-decoration: underline;
-}
-
-footer img {
-  width: 184px;
-  height: 60px;
 }
 
 .popular-section h4 {
@@ -242,10 +293,6 @@ footer img {
   margin: 0 70px;
 }
 
-.related-news-heading a {
-  font-weight: bold;
-}
-
 .related-news-heading {
   padding: 10px 0;
 }
@@ -268,21 +315,6 @@ section h3 {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
-section ul a {
-  display: inline-block;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 14px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 16px;
-  list-style: none;
-}
-
-section ul a:hover {
-  cursor: pointer;
-}
-
 .subscribe {
   padding-left: 15px;
   border-left: 1px solid #e2e2e2;
@@ -297,27 +329,12 @@ section ul a:hover {
   line-height: 15px;
   text-transform: uppercase;
   width: 150px;
-  margin: 0px;
+  margin: 0;
 }
 
 .subscribe li {
   margin-bottom: 5px;
   white-space: nowrap;
-}
-
-.subscribe li a {
-  display: inline-block;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 16px;
-  font-weight: 700;
-  height: 25px;
-  line-height: 15px;
-  padding-bottom: 0px;
-}
-
-.subscribe li a:hover {
-  text-decoration: underline;
 }
 
 .subscribe-svg {
@@ -339,8 +356,8 @@ section ul a:hover {
 
 .subscribe-second-ul {
   list-style: none;
-  margin: 2px 0px 0px;
-  padding: 10px 0px 0px;
+  margin: 2px 0 0;
+  padding: 10px 0 0;
   border-top: 1px solid rgb(226, 226, 226);
 }
 
@@ -388,7 +405,7 @@ section ul a:hover {
 }
 
 .related-news {
-  grid-template-columns: 33.3% 33.3% 33.3%; 
+  grid-template-columns: 33.3% 33.3% 33.3%;
   grid-gap: 20px 20px;
 }
 
@@ -396,29 +413,9 @@ section ul a:hover {
   margin-right: -120px;
 }
 
- #editor-pic {
-   margin-right:20px;
-   padding-right: 50px;
- }
-
-.editors-picks img {
-  width: 270px;
-  height: 175px;
-}
-
-.related-news img {
-  width: 277px;
-  height: 170px;
-}
-
-.related-news a,
-.editors-picks a {
-  cursor: pointer;
-}
-
-.related-news p a,
-.editors-picks p a {
-  color: #3e1212;
+#editor-pic {
+  margin-right: 20px;
+  padding-right: 50px;
 }
 
 .related-news small,
@@ -427,8 +424,8 @@ section ul a:hover {
 }
 
 .news-text {
-  padding: 15px 0px; 
-  cursor: pointer
+  padding: 15px 0;
+  cursor: pointer;
   border-bottom: 1px solid #e2e2e2;
 }
 
@@ -442,8 +439,6 @@ section ul a:hover {
   border-top: 1px solid #888;
   margin-top: -14px;
 }
-
-/* @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
 
 .flex-h {
   display: flex;
