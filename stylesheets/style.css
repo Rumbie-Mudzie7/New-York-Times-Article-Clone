@@ -8,7 +8,7 @@ body {
   font-family: nyt-franklin, helvetica, arial, "Open Sans", sans-serif;
   overflow-x: hidden;
   min-width: 100%;
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
 }
 
 a {
@@ -359,6 +359,7 @@ footer {
   /* margin-bottom: 30px; */
   padding: 20px 250px;
   margin-bottom: -69px;
+  width: 100%;
 }
 
 .popular-section h4 {
