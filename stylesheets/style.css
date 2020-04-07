@@ -48,7 +48,7 @@ a {
 }
 
 .social-icons {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -80,12 +80,9 @@ a {
 
 aside a {
   cursor: pointer;
-  /*font-family: nyt-cheltenham-small, georgia, "times new roman", sans-serif;*/
-  /*font-weight: 700;*/
   font-size: 14px;
   line-height: 17px;
   color: #333;
-  /*height: 100px;*/
   width: 100px;
   float: left;
   margin-top: 10px;
@@ -129,9 +126,17 @@ section ul a {
   border: none;
 }
 
+aside p {
+  margin: 6px 150px 20px 10px;
+}
+
 .title p {
   color: #666;
-  /*font-family: nyt-imperial, georgia, 'times new roman', times, serif;*/
+}
+
+.related-news small,
+.editors-picks small {
+  color: #999;
 }
 
 .title p small {
@@ -141,13 +146,11 @@ section ul a {
 
 .media-text {
   color: #666;
-  /*font-family: nyt-imperial, georgia, 'times new roman', times, serif;*/
   font-size: 0.875 rem;
 }
 
 .media-text-span {
   color: #888;
-  /*font-family: nyt-imperial,georgia,'times new roman',times,serif;*/
   letter-spacing: 0.01em;
   font-size: 0.75rem;
 }
@@ -238,7 +241,6 @@ footer img {
 
 .title {
   margin-top: 50px;
-  /*font-family: nyt-cheltenham, georgia, 'times new roman', times, serif, sans-serif;*/
 }
 
 .title h1 {
@@ -294,12 +296,7 @@ aside h6 {
   margin-bottom: 20px;
 }
 
-aside p {
-  margin: 6px 150px 20px 10px;
-}
-
 .text-grid p {
-  /*font-family: nyt-franklin, helvetica, arial, sans-serif;*/
   font-weight: 500;
   color: #333;
   margin-bottom: 1rem;
@@ -315,7 +312,6 @@ aside p {
 }
 
 figcaption {
-  /*font-family: nyt-franklin, arial, helvetica, sans-serif;*/
   font-size: 14px;
   line-height: 17px;
   font-weight: 100;
@@ -354,7 +350,7 @@ footer {
   cursor: pointer;
 }
 
-.footer-section h3{
+.footer-section h3 {
   font-size: 1rem;
 }
 
@@ -457,7 +453,6 @@ section ul,
 
 .editor-info {
   display: block;
-  /*vertical-align: baseline;*/
   margin-bottom: 15px;
   align-items: center;
 }
@@ -467,7 +462,6 @@ section ul,
   line-height: 1.125rem;
   font-weight: 500;
   font-style: normal;
-  /*font-family: nyt-franklin, arial, helvetica, sans-serif;*/
   margin: 80px 20%;
 }
 
@@ -493,11 +487,6 @@ section ul,
 #editor-pic {
   margin-right: 20px;
   padding-right: 50px;
-}
-
-.related-news small,
-.editors-picks small {
-  color: #999;
 }
 
 .news-text {
@@ -550,7 +539,6 @@ section ul,
 }
 
 .media-text p {
-  /*font-family: nyt-imperial, georgia, 'times new roman', times, serif;*/
   color: #666;
 }
 
