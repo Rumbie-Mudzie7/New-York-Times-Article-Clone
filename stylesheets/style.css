@@ -363,7 +363,7 @@ footer {
 }
 
 .popular-section h4 {
-  padding: 30px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #888;
 }
 
@@ -477,7 +477,7 @@ section h3 {
 
 .popular-news-heading {
   padding: 10px 0;
-  margin: 20px 214px 20px 83px;
+  margin: 20px 214px 20px 58px;
 }
 
 .editor-info {
@@ -530,7 +530,7 @@ section h3 {
 
 .popular-section {
   list-style: outside none none;
-  margin: 35px 280px 20px 87px;
+  margin: 35px 280px 20px 58px;
   padding-right: 50px;
 }
 
