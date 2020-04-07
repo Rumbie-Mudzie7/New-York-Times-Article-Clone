@@ -501,6 +501,7 @@ section h3 {
   grid-template-columns: 33.3% 33.3% 33.3%;
   grid-gap: 20px 20px;
   margin: 20px 20px 20px 200px;
+  height: 100px;
 }
 
 .popular-news {
