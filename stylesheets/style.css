@@ -310,6 +310,7 @@ aside {
 footer {
   margin-bottom: 30px;
   padding: 20px 250px;
+  margin-left: -120px;
 }
 
 .popular-section h4 {
@@ -322,7 +323,7 @@ footer {
 }
 
 .footer-section {
-  width: 300px;
+  /* width: 300px; */
 }
 
 .navline {
@@ -335,7 +336,7 @@ footer {
 }
 
 .copyright {
-  margin: 0 70px;
+  margin-left: 35px;
   font-size: 11px;
 }
 
@@ -358,13 +359,14 @@ section h3 {
   line-height: 15px;
   margin-bottom: 10px;
   font-size: 1.25rem;
+  margin-top: 100px;
   /*font-family: nyt-cheltenham, georgia, "times new roman", times, serif;*/
 }
 
 .subscribe {
   padding-left: 15px;
   border-left: 1px solid #e2e2e2;
-  width: 345px;
+  margin-left: 100px;
 }
 
 .subscribe h3 {
