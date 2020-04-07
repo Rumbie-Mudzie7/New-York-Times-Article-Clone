@@ -358,8 +358,7 @@ aside {
 footer {
   /* margin-bottom: 30px; */
   padding: 20px 250px;
-  margin-bottom: -69px;
-  width: 100%;
+  margin-left: -120px;
 }
 
 .popular-section h4 {
@@ -371,9 +370,10 @@ footer {
   cursor: pointer;
 }
 
+}
+
 .navline {
   border-top: 1px solid #e2e2e2;
-  margin-bottom: 2px;
 }
 
 .footer-heading {
@@ -381,7 +381,7 @@ footer {
 }
 
 .copyright {
-  /* margin: 0 70px; */
+  margin-left: 35px;
   font-size: 11px;
   
 }
@@ -416,10 +416,9 @@ section h3 {
   font-size: 1.25rem;
 }
 
-.subscribe {
   padding-left: 15px;
   border-left: 1px solid #e2e2e2;
-  width: 345px;
+  margin-left: 100px;
 }
 
 .subscribe h3 {
