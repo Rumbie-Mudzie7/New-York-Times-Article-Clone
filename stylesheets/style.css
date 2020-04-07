@@ -353,6 +353,10 @@ section ul,
   list-style: none;
 }
 
+.theory-section {
+  margin-top: 100px;
+}
+
 section h3 {
   color: #333;
   font-weight: 700;
